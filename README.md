@@ -29,8 +29,8 @@ You'll need:
 
 ```bash
 npm install
-cp .env.example .env      # then adjust MONGO_URI etc. if you're not using the defaults
-npm run dev                # nodemon, restarts on save
+.env     
+npm run dev               
 ```
 
 The server comes up on `http://localhost:5000` — `GET /health` is a quick way
