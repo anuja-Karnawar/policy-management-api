@@ -27,10 +27,6 @@ in which collection.
 
 You'll need:
 
-- **Node.js** (v18+, I built this on v20) — https://nodejs.org
-- **MongoDB Community Server** running locally, or an Atlas connection string
-- **Postman** or **Thunder Client** to actually call the endpoints
-
 ```bash
 npm install
 cp .env.example .env      # then adjust MONGO_URI etc. if you're not using the defaults
